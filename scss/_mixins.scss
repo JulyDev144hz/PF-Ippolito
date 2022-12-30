@@ -1,0 +1,8 @@
+// mixin para agrandar un objeto al ponerle el mouse encima
+@mixin scaleOnHover($escala){
+    &:hover{
+      position: relative;
+        transform: scale($escala);
+      cursor: pointer;
+    }
+  }
